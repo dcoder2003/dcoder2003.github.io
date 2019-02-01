@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	outline: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+
+header{
+	background-color: #151419;
+	width: 100%;
+	position: fixed;
+	padding: 10px 0;
+}
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	font-size: 1.2em;
+	color: white;
+}
+.img-logo{
+	width: 50px;
+	margin: 0 10px 0 0;
+}
+.menu{
+	display: flex;
+	align-items: center;
+}
+.menu-item{
+	list-style-type: none;
+	margin: 0 0 0 15px;
+	color: white;
+}
+.menu-item-a{
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	transition: 0.25s;
+}
+.menu-item-a:hover{
+	color: #F44336;
+}
+
+
+
+
+.head{
+	background-color: #151419;
+	background-image: url('../images/header.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.head-box{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.head-my-name{
+	font-size: 1.5em;
+}
+.head-my-specialization{
+	margin: 10px 0;
+}
+.head-description{
+	margin: 0 0 50px 0;
+}
+.head-button{
+	padding: 10px 20px;
+	border-radius: 2.5px;
+	background-color: transparent;
+	color: white;
+	border: 1.5px solid #F44336;
+	transition: 0.25s;
+}
+.head-button:hover{
+	background-color: #F44336;
+}
+.section-info{
+	height: 4000px;
+}
